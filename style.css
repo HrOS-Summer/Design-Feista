@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2E1B50;
+}
+
+.section-1{
+    margin: 30px 110px;
+    background-color: #8642FF;
+    padding: 30px 60px;
+    box-shadow: 0 0 17px rgba(134, 66, 255, 0.8);
+}
+
+.nav{
+    color: #fff;
+    font-family: Jura;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .ham{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.center {
+    color: #fff;
+    font-family: Jura;
+    margin-top: 50px;
+
+}
+
+.blurred-content {
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    background: rgba(134, 66, 255, 0.3); /* Adjust the transparency (alpha) value as needed */
+    box-shadow: rgba(134, 66, 255, 0.1); 
+       
+}    
+.separator {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.sic{
+    font-size: 120px; 
+    font-weight: 800;    
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #955AFF;
+    color: #fff;
+    padding: 12px 50px;
+    font-family: Inter;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+}
+   
+ .section-2 {
+    margin: 100px 110px;
+    padding: 30px 60;
+ }   
+
+ .sec-2span {
+    background-color: rgba(134, 66, 255, 0.1);;
+    height: 300px;
+    width: 160px;
+    box-shadow: rgba(134, 66, 255, 0.1);
+    backdrop-filter: blur(10px);
+ }
+
+ .sec-3 {
+    margin: 30px 110px;
+    padding: 30px 60px;
+ }
+
